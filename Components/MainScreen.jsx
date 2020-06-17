@@ -18,6 +18,7 @@ const AppTabNavigator = createMaterialTopTabNavigator(
     ProfileTab: { screen: ProfileTab },
   },
   {
+    bounces: true,
     animationEnabled: true,
     swipeEnabled: true,
     tabBarPosition: 'bottom',
